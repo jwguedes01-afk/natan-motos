@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Natan Motos – Oficina especializada em motos em Fortaleza-CE. Revisão, mecânica, elétrica, freios, suspensão, pneus e injeção eletrônica. Atendimento de segunda a sábado." />
+  <meta name="keywords" content="oficina de motos, Fortaleza, Montese, revisão de moto, mecânica moto, Natan Motos" />
+  <meta property="og:title" content="Natan Motos – Oficina Premium em Fortaleza" />
+  <meta property="og:description" content="Especialistas em revisão, mecânica, elétrica e muito mais. Venha nos visitar na Rua Equador, 104, Montese." />
+  <meta property="og:type" content="website" />
+  <title>Natan Motos – Oficina Premium em Fortaleza-CE</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo">
+        <img src="images/logo.jpeg" alt="Natan Motos" class="header__logo-img" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home"        class="nav__link">Início</a></li>
+          <li><a href="#servicos"    class="nav__link">Serviços</a></li>
+          <li><a href="#sobre"       class="nav__link">Sobre</a></li>
+          <li><a href="#galeria"     class="nav__link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato"     class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/5585987413758?text=Olá!%20Gostaria%20de%20agendar%20um%20serviço." target="_blank" rel="noopener" class="btn btn--primary header__cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <span class="hero__badge">Natan Motos</span>
+      <h1 class="hero__title">Sua moto merece<br /><span class="hero__title--accent">o melhor cuidado</span></h1>
+      <p class="hero__desc">Especialistas em revisão, mecânica, elétrica e muito mais. Mais de uma década servindo os motociclistas de Fortaleza com qualidade e confiança.</p>
+      <div class="hero__actions">
+        <a href="https://wa.me/5585987413758?text=Olá!%20Gostaria%20de%20agendar%20um%20serviço." target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#servicos" class="btn btn--outline btn--lg">Ver Serviços</a>
+      </div>
+      <div class="hero__info">
+        <div class="hero__info-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Seg–Sex 08h–18h | Sáb 08h–12h
+        </div>
+        <div class="hero__info-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Rua Equador, 104 – Montese, Fortaleza-CE
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="section services" id="servicos">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">O que fazemos</span>
+        <h2 class="section__title">Nossos Serviços</h2>
+        <p class="section__desc">Atendemos todas as marcas e modelos com mão de obra qualificada e peças de qualidade.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M32 16v16l10 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Revisão Completa</h3>
+          <p class="service-card__desc">Checklist completo de todos os itens críticos da sua moto para garantir segurança e performance.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 36l8-8 6 6 8-12 6 4 8-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="8" y="44" width="48" height="6" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M20 14h24M32 14v12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Mecânica Geral</h3>
+          <p class="service-card__desc">Motor, câmbio, embreagem e transmissão. Diagnóstico preciso e reparos com peças originais.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8l4 12h12l-10 8 4 12-10-8-10 8 4-12-10-8h12z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M20 52h24M32 44v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Sistema Elétrico</h3>
+          <p class="service-card__desc">Diagnóstico eletrônico, fiação, bateria, faróis e sistema de ignição com equipamentos modernos.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="32" r="10" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M32 12v8M32 44v8M12 32h8M44 32h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Freios</h3>
+          <p class="service-card__desc">Troca de pastilhas, discos, fluido e regulagem do sistema de freios ABS e convencional.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="32" cy="48" rx="20" ry="6" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M12 48V24c0-8.837 8.954-16 20-16s20 7.163 20 16v24" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 36h16M28 28h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Troca de Óleo</h3>
+          <p class="service-card__desc">Óleo e filtro originais ou recomendados pelo fabricante. Rápido, limpo e com descarte correto.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 52V28M44 52V16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 36h12M38 24h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M20 28c0-4 4-8 12-8s12 4 12-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Suspensão</h3>
+          <p class="service-card__desc">Regulagem, troca de amortecedores e reparo de garfos dianteiros para maior conforto e controle.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="32" r="8" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M32 10v6M32 48v6M10 32h6M48 32h6M18.1 18.1l4.2 4.2M41.7 41.7l4.2 4.2M45.9 18.1l-4.2 4.2M22.3 41.7l-4.2 4.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Pneus</h3>
+          <p class="service-card__desc">Troca, balanceamento e alinhamento de pneus das principais marcas com equipamentos precisos.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="20" width="44" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 20v-4a2 2 0 012-2h16a2 2 0 012 2v4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 34h8M34 34h8M22 40h6M34 40h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="34" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Injeção Eletrônica</h3>
+          <p class="service-card__desc">Limpeza de bicos, calibração e diagnóstico completo do sistema de injeção eletrônica.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="section about" id="sobre">
+    <div class="container about__inner">
+      <div class="about__visual reveal">
+        <div class="about__img-wrap">
+          <img src="images/projeto-1.jpeg" alt="Oficina Natan Motos" class="about__img" />
+          <div class="about__badge-float">
+            <strong>+10</strong>
+            <span>Anos de<br/>experiência</span>
+          </div>
+        </div>
+        <div class="about__img-secondary">
+          <img src="images/projeto-2.jpeg" alt="Trabalho na oficina" />
+        </div>
+      </div>
+
+      <div class="about__content reveal">
+        <span class="section__tag">Quem somos</span>
+        <h2 class="section__title">Tradição e qualidade<br/>em cada serviço</h2>
+        <p>A Natan Motos nasceu da paixão por motocicletas e do compromisso com a excelência. Localizada no coração do Montese, em Fortaleza, nossa oficina atende motociclistas de toda a região com seriedade e técnica.</p>
+        <p>Nossos mecânicos são treinados e atualizados constantemente para lidar com as tecnologias mais modernas do mercado, desde motos simples até modelos de alta cilindrada.</p>
+        <ul class="about__list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Equipe técnica qualificada e certificada
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Peças originais e de qualidade garantida
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Atendimento transparente com orçamento prévio
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Garantia em todos os serviços realizados
+          </li>
+        </ul>
+        <a href="https://wa.me/5585987413758?text=Quero%20saber%20mais%20sobre%20a%20Natan%20Motos!" target="_blank" rel="noopener" class="btn btn--primary">Fale Conosco</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section class="section differentials">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Por que nos escolher</span>
+        <h2 class="section__title">Nossos Diferenciais</h2>
+      </div>
+      <div class="differentials__grid">
+        <div class="diff-card reveal">
+          <div class="diff-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l4.5 9 10 1.5-7.25 7 1.75 10L24 27l-9 4.5 1.75-10L9.5 14.5 19.5 13z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Qualidade Premium</h3>
+          <p>Utilizamos apenas peças de procedência e ferramentas de última geração.</p>
+        </div>
+        <div class="diff-card reveal">
+          <div class="diff-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Agilidade no Atendimento</h3>
+          <p>Diagnóstico rápido e prazo cumprido. Respeitamos o seu tempo.</p>
+        </div>
+        <div class="diff-card reveal">
+          <div class="diff-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6C14.06 6 6 14.06 6 24s8.06 18 18 18 18-8.06 18-18S33.94 6 24 6z" stroke="currentColor" stroke-width="2.5"/><path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Garantia de Serviço</h3>
+          <p>Todos os serviços possuem garantia. Sua satisfação é nossa prioridade.</p>
+        </div>
+        <div class="diff-card reveal">
+          <div class="diff-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l2.5 7.5H34l-6 4.5 2.5 7.5-6-4.5-6 4.5 2.5-7.5-6-4.5h7.5z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M14 32l-8 8M34 32l8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Orçamento Transparente</h3>
+          <p>Sem surpresas. Aprovamos tudo com você antes de começar qualquer serviço.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERIA ===== -->
+  <section class="section gallery" id="galeria">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Nosso trabalho</span>
+        <h2 class="section__title">Galeria de Projetos</h2>
+        <p class="section__desc">Cada moto que passa pela Natan Motos recebe atenção e cuidado. Confira alguns dos nossos trabalhos.</p>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery__item reveal" data-index="0">
+          <img src="images/projeto-1.jpeg" alt="Projeto 1 – Natan Motos" loading="lazy" />
+          <div class="gallery__overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-index="1">
+          <img src="images/projeto-2.jpeg" alt="Projeto 2 – Natan Motos" loading="lazy" />
+          <div class="gallery__overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-index="2">
+          <img src="images/projeto-3.jpeg" alt="Projeto 3 – Natan Motos" loading="lazy" />
+          <div class="gallery__overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-index="3">
+          <img src="images/projeto-4.jpeg" alt="Projeto 4 – Natan Motos" loading="lazy" />
+          <div class="gallery__overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+        <div class="gallery__item reveal" data-index="4">
+          <img src="images/projeto-5.jpeg" alt="Projeto 5 – Natan Motos" loading="lazy" />
+          <div class="gallery__overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <button class="lightbox__prev" id="lightboxPrev" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="lightbox__img-wrap">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+    <button class="lightbox__next" id="lightboxNext" aria-label="Próximo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="lightbox__counter" id="lightboxCounter"></div>
+  </div>
+
+  <!-- ===== ESTATÍSTICAS ===== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal">
+        <strong class="stat__number" data-target="1500">0</strong>
+        <span class="stat__plus">+</span>
+        <p class="stat__label">Motos atendidas</p>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__number" data-target="10">0</strong>
+        <span class="stat__plus">+</span>
+        <p class="stat__label">Anos de experiência</p>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__number" data-target="98">0</strong>
+        <span class="stat__plus">%</span>
+        <p class="stat__label">Clientes satisfeitos</p>
+      </div>
+      <div class="stat reveal">
+        <strong class="stat__number" data-target="8">0</strong>
+        <p class="stat__label">Especialidades</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section class="section testimonials" id="depoimentos">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">O que dizem</span>
+        <h2 class="section__title">Depoimentos</h2>
+        <p class="section__desc">A opinião de quem já viveu a experiência Natan Motos.</p>
+      </div>
+
+      <div class="testimonials__track" id="testimonialsTrack">
+        <div class="testimonials__inner" id="testimonialsInner">
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Serviço impecável! Levei minha Honda CB 300 para revisão completa e ficou perfeita. Equipe muito profissional e preço justo. Já indiquei para vários amigos."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">CR</div>
+              <div>
+                <strong>Carlos Roberto</strong>
+                <span>Honda CB 300</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Minha moto apresentou problema elétrico e a Natan Motos identificou e resolveu no mesmo dia. Atendimento rápido e transparente. Recomendo demais!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">AM</div>
+              <div>
+                <strong>Ana Maria</strong>
+                <span>Yamaha Factor 125</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Melhor oficina de Fortaleza! Levei para trocar os freios e ainda fizeram uma checagem geral sem cobrar a mais. Confiança total no trabalho deles."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">JP</div>
+              <div>
+                <strong>João Paulo</strong>
+                <span>Biz 125</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Fui indicada por um vizinho e não me arrependo nada. Atendimento gentil, me explicaram tudo que seria feito e o preço foi exatamente o orçado. Voltarei sempre!"</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">FL</div>
+              <div>
+                <strong>Fernanda Lima</strong>
+                <span>Pop 110i</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__text">"Trabalho excelente! Minha Ninja estava com problema na injeção eletrônica, resolveram rapidinho e com garantia. Profissionalismo de outro nível."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">RS</div>
+              <div>
+                <strong>Rafael Santos</strong>
+                <span>Kawasaki Ninja 300</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="testimonials__dots" id="testimonialsDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="section contact" id="contato">
+    <div class="container contact__inner">
+
+      <div class="contact__info reveal">
+        <span class="section__tag">Entre em contato</span>
+        <h2 class="section__title">Fale com a gente</h2>
+        <p>Tire suas dúvidas, agende um serviço ou solicite um orçamento. Estamos prontos para atender você!</p>
+
+        <div class="contact__details">
+          <a href="https://wa.me/5585987413758" target="_blank" rel="noopener" class="contact__detail">
+            <div class="contact__detail-icon contact__detail-icon--green">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>(85) 98741-3758</span>
+            </div>
+          </a>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Endereço</strong>
+              <span>Rua Equador, 104 – Montese<br/>Fortaleza-CE</span>
+            </div>
+          </div>
+
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <strong>Horário de Funcionamento</strong>
+              <span>Seg–Sex: 08h às 18h<br/>Sábado: 08h às 12h</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap reveal">
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="(85) 9 0000-0000" required />
+          </div>
+          <div class="form-group">
+            <label for="moto">Modelo da moto</label>
+            <input type="text" id="moto" name="moto" placeholder="Ex: Honda CG 160" />
+          </div>
+          <div class="form-group">
+            <label for="service">Serviço desejado</label>
+            <select id="service" name="service">
+              <option value="">Selecione um serviço</option>
+              <option>Revisão Completa</option>
+              <option>Mecânica Geral</option>
+              <option>Sistema Elétrico</option>
+              <option>Freios</option>
+              <option>Troca de Óleo</option>
+              <option>Suspensão</option>
+              <option>Pneus</option>
+              <option>Injeção Eletrônica</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Descreva o problema ou serviço desejado..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== MAPA ===== -->
+  <section class="map-section">
+    <div class="map-section__header container">
+      <span class="section__tag">Como chegar</span>
+      <h2 class="section__title">Nossa Localização</h2>
+    </div>
+    <div class="map-section__embed">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.335!2d-38.538!3d-3.736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sNatan+Motos!5e0!3m2!1spt-BR!2sbr!4v1"
+        width="100%"
+        height="420"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Localização Natan Motos">
+      </iframe>
+    </div>
+    <div class="map-section__cta container">
+      <a href="https://www.google.com/maps/place/Natan+Motos/" target="_blank" rel="noopener" class="btn btn--primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Abrir no Google Maps
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__top">
+      <div class="footer__brand">
+        <img src="images/logo.jpeg" alt="Natan Motos" class="footer__logo" />
+        <p>Oficina especializada em motos em Fortaleza-CE. Qualidade, confiança e agilidade no seu atendimento.</p>
+        <a href="https://wa.me/5585987413758" target="_blank" rel="noopener" class="footer__whatsapp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          (85) 98741-3758
+        </a>
+      </div>
+
+      <div class="footer__nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__services">
+        <h4>Serviços</h4>
+        <ul>
+          <li>Revisão Completa</li>
+          <li>Mecânica Geral</li>
+          <li>Sistema Elétrico</li>
+          <li>Freios</li>
+          <li>Troca de Óleo</li>
+          <li>Suspensão</li>
+          <li>Pneus</li>
+          <li>Injeção Eletrônica</li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <ul>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Rua Equador, 104<br/>Montese – Fortaleza-CE
+          </li>
+          <li>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Seg–Sex: 08h–18h<br/>Sáb: 08h–12h
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="currentYear"></span> Natan Motos. Todos os direitos reservados.</p>
+        <p>Desenvolvido com qualidade para Fortaleza-CE</p>
+        <p>Desenvolvido por Julio Nascimento</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5585987413758?text=Olá!%20Gostaria%20de%20agendar%20um%20serviço." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar pelo WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-float__tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
