@@ -192,6 +192,13 @@ ul { list-style: none; }
 }
 
 
+.header__logo { display: flex; align-items: center; flex-shrink: 0; }
+.header__logo-img {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* Nav */
 .nav { margin: 0 auto; }
 .nav__list {
