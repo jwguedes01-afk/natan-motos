@@ -473,6 +473,7 @@ ul { list-style: none; }
   text-transform: uppercase;
   color: #555555;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .brands__divider {
