@@ -140,87 +140,134 @@
   <!-- ===== MARCAS ===== -->
   <section class="brands" id="marcas">
     <div class="container">
-      <div class="brands__box">
-        <h2 class="brands__title">Marcas que atendemos</h2>
-        <div class="brands__divider"></div>
-        <div class="brands__grid">
-          <!-- Honda -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <g fill="none" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M 30 50 L 50 30 L 70 50"></path>
-                <path d="M 30 50 L 50 70 L 70 50"></path>
-              </g>
+      <div class="brands-bar">
+        <div class="bar-title">Marcas que atendemos</div>
+        <div class="divider"></div>
+        <div class="logos-row">
+
+          <!-- HONDA -->
+          <div class="brand-item">
+            <svg width="72" height="40" viewBox="0 0 72 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Honda H wing logo -->
+              <rect x="2" y="10" width="8" height="20" rx="1.5" fill="white"/>
+              <rect x="32" y="10" width="8" height="20" rx="1.5" fill="white"/>
+              <rect x="62" y="10" width="8" height="20" rx="1.5" fill="white"/>
+              <path d="M10 18 Q21 6 32 18" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <path d="M40 18 Q51 6 62 18" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <rect x="2" y="18" width="8" height="4" fill="white"/>
+              <rect x="32" y="18" width="8" height="4" fill="white"/>
+              <rect x="62" y="18" width="8" height="4" fill="white"/>
             </svg>
-            <span class="brands__name">Honda</span>
+            <span class="brand-name">Honda</span>
           </div>
 
-          <!-- Yamaha -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="50" cy="50" r="35" fill="none" stroke="white" stroke-width="3"/>
-              <path d="M 50 25 L 55 40 L 45 40 Z" fill="white"/>
-              <path d="M 70 55 L 80 70 L 65 65 Z" fill="white"/>
-              <path d="M 30 55 L 20 70 L 35 65 Z" fill="white"/>
+          <!-- YAMAHA -->
+          <div class="brand-item">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Yamaha 3 tuning forks in circle -->
+              <circle cx="22" cy="22" r="20" stroke="white" stroke-width="2" fill="none"/>
+              <circle cx="22" cy="22" r="14" stroke="white" stroke-width="1.2" fill="none"/>
+              <!-- 3 tuning forks at 0, 120, 240 deg -->
+              <!-- Fork 1: up -->
+              <path d="M22 8 L22 22" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M19.5 8 L19.5 14" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M24.5 8 L24.5 14" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <!-- Fork 2: bottom-right -->
+              <path d="M22 22 L33.1 35.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M33.1 35.5 L35.5 30.8" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M33.1 35.5 L29 37.5" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <!-- Fork 3: bottom-left -->
+              <path d="M22 22 L10.9 35.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M10.9 35.5 L8.5 30.8" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M10.9 35.5 L15 37.5" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="22" cy="22" r="3" fill="white"/>
             </svg>
-            <span class="brands__name">Yamaha</span>
+            <span class="brand-name">Yamaha</span>
           </div>
 
-          <!-- Kawasaki -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <text x="50" y="65" font-size="50" font-weight="bold" fill="#00A651" text-anchor="middle">K</text>
-              <text x="50" y="85" font-size="14" font-weight="bold" fill="#00A651" text-anchor="middle" letter-spacing="2">KAWASAKI</text>
+          <!-- KAWASAKI -->
+          <div class="brand-item">
+            <svg width="60" height="36" viewBox="0 0 60 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Kawasaki stylized K -->
+              <path d="M8 4 L8 32" stroke="#00A651" stroke-width="5" stroke-linecap="round"/>
+              <path d="M8 18 L26 4" stroke="#00A651" stroke-width="4.5" stroke-linecap="round"/>
+              <path d="M8 18 L26 32" stroke="#00A651" stroke-width="4.5" stroke-linecap="round"/>
+              <!-- KAWASAKI text -->
+              <text x="32" y="23" font-size="11" font-weight="800" font-family="Arial Black, Arial, sans-serif" fill="#00A651" letter-spacing="0.5">KAWASAKI</text>
             </svg>
-            <span class="brands__name">Kawasaki</span>
+            <span class="brand-name">Kawasaki</span>
           </div>
 
-          <!-- Suzuki -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <rect x="20" y="25" width="60" height="50" fill="#E8001B" rx="4"/>
-              <text x="50" y="65" font-size="48" font-weight="bold" fill="white" text-anchor="middle">S</text>
+          <!-- SUZUKI -->
+          <div class="brand-item">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Suzuki S logo -->
+              <rect x="2" y="2" width="40" height="40" rx="4" fill="#E8001B"/>
+              <path d="M32 10 Q12 10 12 20 Q12 26 22 26 Q34 26 34 33 Q34 40 12 40"
+                    stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round"/>
             </svg>
-            <span class="brands__name">Suzuki</span>
+            <span class="brand-name">Suzuki</span>
           </div>
 
           <!-- BMW -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="50" cy="50" r="38" fill="none" stroke="#1C69D4" stroke-width="3"/>
-              <circle cx="50" cy="50" r="32" fill="none" stroke="#1C69D4" stroke-width="3"/>
-              <line x1="50" y1="18" x2="50" y2="82" stroke="#1C69D4" stroke-width="3"/>
-              <line x1="18" y1="50" x2="82" y2="50" stroke="#1C69D4" stroke-width="3"/>
+          <div class="brand-item">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- BMW roundel -->
+              <circle cx="22" cy="22" r="20" fill="#1C69D4"/>
+              <circle cx="22" cy="22" r="20" fill="none" stroke="white" stroke-width="3"/>
+              <!-- quadrants -->
+              <path d="M22 2 A20 20 0 0 1 42 22 L22 22 Z" fill="white"/>
+              <path d="M22 42 A20 20 0 0 1 2 22 L22 22 Z" fill="white"/>
+              <path d="M22 2 A20 20 0 0 0 2 22 L22 22 Z" fill="#1C69D4"/>
+              <path d="M22 42 A20 20 0 0 0 42 22 L22 22 Z" fill="#1C69D4"/>
+              <circle cx="22" cy="22" r="20" fill="none" stroke="white" stroke-width="3"/>
+              <circle cx="22" cy="22" r="1.5" fill="white"/>
+              <!-- BMW text ring -->
+              <path d="M22 5 A17 17 0 0 1 39 22" fill="none" id="bmw-arc"/>
+              <text font-size="7" font-weight="700" font-family="Arial, sans-serif" fill="white">
+                <textPath href="#bmw-arc" startOffset="8%">BMW</textPath>
+              </text>
             </svg>
-            <span class="brands__name">BMW</span>
+            <span class="brand-name">BMW</span>
           </div>
 
-          <!-- Harley-Davidson -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <polygon points="50,20 80,70 20,70" fill="#FF6600"/>
-              <text x="50" y="65" font-size="24" font-weight="bold" fill="white" text-anchor="middle">HD</text>
+          <!-- HARLEY-DAVIDSON -->
+          <div class="brand-item">
+            <svg width="52" height="44" viewBox="0 0 52 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- HD Bar & Shield -->
+              <path d="M26 2 L50 42 L2 42 Z" fill="#FF6600" stroke="#FF6600" stroke-width="1"/>
+              <rect x="16" y="16" width="20" height="18" rx="2" fill="#111"/>
+              <text x="26" y="30" font-size="13" font-weight="900" font-family="Arial Black, Arial, sans-serif" fill="white" text-anchor="middle">HD</text>
+              <!-- bar lines -->
+              <rect x="8" y="20" width="8" height="3" rx="1" fill="white"/>
+              <rect x="36" y="20" width="8" height="3" rx="1" fill="white"/>
+              <rect x="8" y="27" width="8" height="3" rx="1" fill="white"/>
+              <rect x="36" y="27" width="8" height="3" rx="1" fill="white"/>
             </svg>
-            <span class="brands__name">Harley</span>
+            <span class="brand-name">Harley</span>
           </div>
 
-          <!-- Ducati -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <path d="M 30 25 Q 30 20 35 20 L 65 20 Q 70 20 70 25 L 70 75 Q 70 80 65 80 L 35 80 Q 30 80 30 75 Z" fill="#CC0000"/>
-              <text x="50" y="60" font-size="16" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">DUCATI</text>
+          <!-- DUCATI -->
+          <div class="brand-item">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Ducati shield -->
+              <path d="M22 2 L40 10 L40 28 Q40 38 22 42 Q4 38 4 28 L4 10 Z" fill="#CC0000" stroke="#8B0000" stroke-width="1.5"/>
+              <text x="22" y="27" font-size="10" font-weight="900" font-family="Arial Black, Arial, sans-serif" fill="white" text-anchor="middle" letter-spacing="0.5">DUCATI</text>
+              <path d="M8 20 L36 20" stroke="white" stroke-width="1" opacity="0.4"/>
             </svg>
-            <span class="brands__name">Ducati</span>
+            <span class="brand-name">Ducati</span>
           </div>
 
           <!-- KTM -->
-          <div class="brands__item">
-            <svg class="brands__logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-              <rect x="25" y="30" width="50" height="40" fill="#FF6600" rx="3"/>
-              <text x="50" y="62" font-size="28" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">KTM</text>
+          <div class="brand-item">
+            <svg width="64" height="36" viewBox="0 0 64 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- KTM orange box -->
+              <rect x="0" y="2" width="64" height="32" rx="3" fill="#FF6600"/>
+              <text x="32" y="25" font-size="22" font-weight="900" font-family="Arial Black, Arial, sans-serif" fill="white" text-anchor="middle" letter-spacing="1">KTM</text>
             </svg>
-            <span class="brands__name">KTM</span>
+            <span class="brand-name">KTM</span>
           </div>
+
         </div>
       </div>
     </div>
