@@ -1322,3 +1322,35 @@ ul { list-style: none; }
   .stats__grid { grid-template-columns: 1fr 1fr; }
   .contact__form-wrap { padding: 24px 16px; }
 }
+
+/* Instagram Social Button */
+.ig-social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 16px;
+  height: 38px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+.ig-social-btn:hover {
+  background: rgba(221, 42, 123, 0.15);
+  border-color: rgba(221, 42, 123, 0.4);
+  color: #fff;
+}
+.ig-icon-wrap {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #f58529 0%, #dd2a7b 50%, #8134af 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
